@@ -8,31 +8,62 @@
             MinHeight="300" MinWidth="300"
              >
     
+    <!--Тут суть в том, чтобы при выборе темы динамически отображались  контролы,
+    а при нажатию на кнопку принять - темы устанавливались на все окна приложения-->
     
+    <!--Тело-->
         <StackPanel>
-            <GroupBox HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            
+            <!--Выбор настроек темы-->
+            <GroupBox HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="3"
+                      Header="выбрать цветовую схему: ">
                 <StackPanel>
-                    <Label Content="выбрать цветовую схему: "/>
-
-                    <ComboBox>
+                    <ComboBox Margin="3">
                         <ComboBoxItem Content="Темка 1"/>
                         <ComboBoxItem Content="Темка 1"/>
                         <ComboBoxItem Content="Темка 1"/>
                     </ComboBox>
+                    <Button Content="Принять "/>
                 </StackPanel>
             </GroupBox>
 
-            <GroupBox Header="Образы контролов">
+            
+            <GroupBox Header="Образы контролов"
+                      HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="3">
                 <StackPanel>
-                    <TextBlock Text="TextBlock"/>
-                    <TextBox Text="TextBox"/>
-                    <Label Content="Label"/>
-                    <GroupBox Header="GroupBox">
-                        <TextBlock Text="GroupBox" Margin="5"/>
-                    </GroupBox>
-
+                    <TextBlock Text="TextBlock1"/>
+                    <TextBlock Text="TextBlock2"/>
+                    <TextBox Text="TextBox1"/>
+                    <TextBox Text="TextBox2"/>
+                    <Label Content="Label1"/>
+                    <Label Content="Label2"/>
                 </StackPanel>
-
             </GroupBox>
-        </StackPanel>
+
+        <GroupBox Header="Образец GroupBox"  
+                  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="3">
+            <StackPanel>
+                <TextBlock Text="GroupBox" Margin="3"/>
+                <TextBlock Text="GroupBox" Margin="3"/>
+            </StackPanel>
+        </GroupBox>
+
+        <GroupBox Header="Образец ListBox"
+                  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="3">
+            <WrapPanel>
+                <ListBox 
+                          MinHeight="40" MaxWidth="120" Margin="3">
+                    <ListBoxItem Content="ДшыеШеуь1"/>
+                    <ListBoxItem Content="ListBoxItem2"/>
+                    <ListBoxItem Content="ListBoxItem3"/>
+                    <ListBoxItem Content="ListBoxItem4"/>
+                </ListBox>
+                <StackPanel>
+                    <Button Content="Тестовая Кнопка 1" Margin="3"/>
+                    <Button Content="Тестовая Кнопка 2" Margin="3"/>
+                    <Button Content="Тестовая Кнопка 3" Margin="3"/>
+                </StackPanel>
+            </WrapPanel>
+        </GroupBox>
+    </StackPanel>
 </UserControl>

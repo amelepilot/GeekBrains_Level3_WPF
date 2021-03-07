@@ -33,3 +33,4 @@ E:\C# Lessons\GeekBrains_Level3_WPF\10_Level3_Lesson1_WPF_MainPanels_My\obj\Debu
 E:\C# Lessons\GeekBrains_Level3_WPF\10_Level3_Lesson1_WPF_MainPanels_My\obj\Debug\View\WinStackPanel.baml
 E:\C# Lessons\GeekBrains_Level3_WPF\10_Level3_Lesson1_WPF_MainPanels_My\obj\Debug\View\WinUniformGrid.baml
 E:\C# Lessons\GeekBrains_Level3_WPF\10_Level3_Lesson1_WPF_MainPanels_My\obj\Debug\View\WinWrapPanel.baml
+E:\C# Lessons\GeekBrains_Level3_WPF\10_Level3_Lesson1_WPF_MainPanels_My\obj\Debug\10_Level3_Lesson1_WPF_MainPanels_My.csprojAssemblyReference.cache
