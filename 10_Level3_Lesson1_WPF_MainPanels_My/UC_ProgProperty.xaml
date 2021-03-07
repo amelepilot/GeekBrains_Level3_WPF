@@ -1,0 +1,38 @@
+﻿<UserControl x:Class="_10_Level3_Lesson1_WPF_MainPanels_My.UC_ProgProperty"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:_10_Level3_Lesson1_WPF_MainPanels_My"
+             mc:Ignorable="d" 
+            MinHeight="300" MinWidth="300"
+             >
+    
+    
+        <StackPanel>
+            <GroupBox HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <StackPanel>
+                    <Label Content="выбрать цветовую схему: "/>
+
+                    <ComboBox>
+                        <ComboBoxItem Content="Темка 1"/>
+                        <ComboBoxItem Content="Темка 1"/>
+                        <ComboBoxItem Content="Темка 1"/>
+                    </ComboBox>
+                </StackPanel>
+            </GroupBox>
+
+            <GroupBox Header="Образы контролов">
+                <StackPanel>
+                    <TextBlock Text="TextBlock"/>
+                    <TextBox Text="TextBox"/>
+                    <Label Content="Label"/>
+                    <GroupBox Header="GroupBox">
+                        <TextBlock Text="GroupBox" Margin="5"/>
+                    </GroupBox>
+
+                </StackPanel>
+
+            </GroupBox>
+        </StackPanel>
+</UserControl>

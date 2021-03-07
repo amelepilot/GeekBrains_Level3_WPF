@@ -1,0 +1,50 @@
+﻿<Window x:Class="_10_Level3_Lesson1_WPF_MainPanels_My.WinDoxkPanel"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_10_Level3_Lesson1_WPF_MainPanels_My"
+        mc:Ignorable="d"
+       Title="Win DockPanel Test" 
+        SizeToContent="WidthAndHeight"  MaxWidth="800" MaxHeight="800">
+
+    
+    <!--В докпанели важен порядок, в котором будут указываться элементы сверху вних сдева направо -удобней-->
+    <DockPanel  LastChildFill="True">
+        <!--Усли   LastChildFill="False" то последний элемент займет все пространство-->
+
+            <TextBlock  Text="Tyt обычно какое нибудь мнню DockPanel.Dock=Top"
+                        TextWrapping="Wrap" HorizontalAlignment="Center"  MaxHeight="50"
+                        DockPanel.Dock="Top" />
+
+            <TextBlock  Text="Tyt обычно какое нибудь мнню, юзерконтрол, кнопки, дерево и тд   DockPanel.Dock=Left"
+                        MaxWidth="200"  TextWrapping="Wrap"
+                         DockPanel.Dock="Left"
+                        />
+        
+            <TextBlock  Text="Тут обычно инфо строка"
+                        MaxHeight="50" TextWrapping="Wrap" HorizontalAlignment="Center"
+                        DockPanel.Dock="Bottom"/>
+
+
+        <StackPanel DockPanel.Dock="Right" MaxWidth="1050" 
+                    HorizontalAlignment="Right">
+            <TextBlock Text="Tyt слайд картинка  DockPanel.Dock=Right"/>
+            <Image Source="Crash\pict_DockPanel.png"  />
+
+        </StackPanel>
+
+       
+
+        
+
+        <StackPanel DockPanel.Dock="Bottom" MaxHeight="50">
+            <TextBlock>
+                Нижняя часть в данный момент DockPanel.Dock=Bottom
+            </TextBlock>
+
+        </StackPanel>
+
+    </DockPanel>
+
+</Window>
