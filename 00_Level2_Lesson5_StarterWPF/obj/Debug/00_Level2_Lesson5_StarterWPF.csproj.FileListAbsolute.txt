@@ -12,4 +12,3 @@ E:\C# Lessons\GeekBrains_Level3_WPF\00_Level2_Lesson5_StarterWPF\obj\Debug\00_Le
 E:\C# Lessons\GeekBrains_Level3_WPF\00_Level2_Lesson5_StarterWPF\obj\Debug\00_Level2_Lesson5_StarterWPF.csproj.CoreCompileInputs.cache
 E:\C# Lessons\GeekBrains_Level3_WPF\00_Level2_Lesson5_StarterWPF\obj\Debug\00_Level2_Lesson5_StarterWPF.exe
 E:\C# Lessons\GeekBrains_Level3_WPF\00_Level2_Lesson5_StarterWPF\obj\Debug\00_Level2_Lesson5_StarterWPF.pdb
-E:\C# Lessons\GeekBrains_Level3_WPF\00_Level2_Lesson5_StarterWPF\obj\Debug\00_Level2_Lesson5_StarterWPF.csprojAssemblyReference.cache

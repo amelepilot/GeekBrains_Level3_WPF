@@ -55,31 +55,31 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="UC_ProgProperty.xaml.cs">
+    <Compile Include="View\UC_ProgProperty.xaml.cs">
       <DependentUpon>UC_ProgProperty.xaml</DependentUpon>
     </Compile>
     <Compile Include="Win.xaml.cs">
       <DependentUpon>Win.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WinCanvas.xaml.cs">
+    <Compile Include="View\WinCanvas.xaml.cs">
       <DependentUpon>WinCanvas.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WinDoxkPanel.xaml.cs">
+    <Compile Include="View\WinDoxkPanel.xaml.cs">
       <DependentUpon>WinDoxkPanel.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WinGrid.xaml.cs">
+    <Compile Include="View\WinGrid.xaml.cs">
       <DependentUpon>WinGrid.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WinStackPanel.xaml.cs">
+    <Compile Include="View\WinStackPanel.xaml.cs">
       <DependentUpon>WinStackPanel.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WinUniformGrid.xaml.cs">
+    <Compile Include="View\WinUniformGrid.xaml.cs">
       <DependentUpon>WinUniformGrid.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WinWrapPanel.xaml.cs">
+    <Compile Include="View\WinWrapPanel.xaml.cs">
       <DependentUpon>WinWrapPanel.xaml</DependentUpon>
     </Compile>
-    <Page Include="MainWindow.xaml">
+    <Page Include="View\MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -87,11 +87,27 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="MainWindow.xaml.cs">
+    <Compile Include="View\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="UC_ProgProperty.xaml">
+    <Page Include="StylesAndThemes\dict_theme_dark.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="StylesAndThemes\dict_theme_forest_green.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="StylesAndThemes\dict_theme_light.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="StylesAndThemes\dict_theme_yelloMe.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\UC_ProgProperty.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -99,27 +115,27 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WinCanvas.xaml">
+    <Page Include="View\WinCanvas.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WinDoxkPanel.xaml">
+    <Page Include="View\WinDoxkPanel.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WinGrid.xaml">
+    <Page Include="View\WinGrid.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WinStackPanel.xaml">
+    <Page Include="View\WinStackPanel.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WinUniformGrid.xaml">
+    <Page Include="View\WinUniformGrid.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WinWrapPanel.xaml">
+    <Page Include="View\WinWrapPanel.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

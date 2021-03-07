@@ -1,0 +1,28 @@
+﻿<Window x:Class="_10_Level3_Lesson1_WPF_MainPanels_My.WinCanvas"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_10_Level3_Lesson1_WPF_MainPanels_My"
+        
+        mc:Ignorable="d"
+        Title="Win Panel Canvas" 
+       >
+   
+    
+    <Canvas>
+
+        <Image Source="/Crash\pict_Canvas.png" 
+               MaxHeight="300" MaxWidth="400"
+               Canvas.Left="200" Canvas.Top="50"
+              
+               />
+
+        <TextBlock Text="Позволяет размещать контролы относительно левого и верхнего края в пикселях. Canvas.Left=15 Canvas.Top=400"
+                   Canvas.Left="15" Canvas.Top="400"
+                   TextWrapping="Wrap" MaxWidth="350"/>
+        <TextBox Height="70" Width="150"
+                 Canvas.Left="505" Canvas.Top="400"/>
+
+    </Canvas>
+</Window>

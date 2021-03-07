@@ -1,0 +1,97 @@
+﻿<Window x:Class="_10_Level3_Lesson1_WPF_MainPanels_My.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_10_Level3_Lesson1_WPF_MainPanels_My"
+         
+        mc:Ignorable="d"
+        Title="Different Panels Demonstration" SizeToContent="WidthAndHeight" MaxWidth="800">
+    
+    <!--Доработать до красоты открывающиеся окна + применить стили для приложения-->
+    
+    <!--Еустовый стиль Button-->
+    <Window.Resources>
+        <Style TargetType="Button" x:Name="StyleButtonWpf_000">
+            <Setter Property="HorizontalAlignment" Value="Stretch"/>
+            <Setter Property="Width" Value="250"/>
+            <Setter Property="Margin" Value="3"/>
+        </Style>
+    </Window.Resources>
+    
+    <!--Тело-->
+    <StackPanel >
+        <!--
+                    IsExpanded -> можно задать раскрытие узла при старте приложения - True - раскрыт при старте окна False - Parhsn
+                    чтоб обработать открытие экспандера, то нам надо обработать событие Expanded 
+                                                    (а при обработке закрытия - событие Collapsed)
+        
+                    ExpandDirection="Down" -> Куда расширять эспандер
+        -->
+        <Expander 
+                  IsExpanded="False"  ExpandDirection="Down">
+            
+            <Expander.Header>
+                <TabControl>
+                    <!--Вкладка с ПАНЕЛЯМИ КОМПОНОВКИ,всплывающими оллкнами, оформленными как панели-->
+                    <TabItem>
+                        <TabItem.Header>
+                            <TextBlock>Примеры панелей</TextBlock>
+                        </TabItem.Header>
+                        <TabItem.Content>
+                            <GroupBox HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                              Header="Открой окно с краткой информацией о Стандартных Контейнерах Компановки">
+                                <WrapPanel>
+                                    <Button x:Name="StackButtonWPF" Content="Открыть пример StaclPanel"
+                                            Click="StackButtonWPF_Click"/>
+                                    <Button x:Name="WrapButtonWPF" Content="Открыть пример WrapPanel"
+                                            Click="WrapButtonWPF_Click"/>
+                                    <Button x:Name="DockButtonWPF" Content="Открыть пример DocklPanel"
+                                            Click="DockButtonWPF_Click"/>
+                                    <Button x:Name="GridButtonWPF" Content="Открыть пример Grid"
+                                            Click="GridButtonWPF_Click"/>
+                                    <Button x:Name="ExpanderButtonWPF" Content="Открыть пример Expander" 
+                                            Click="ExpanderButtonWPF_Click"/>
+                                    <Button x:Name="GroupBoxButtonWPF" Content="Открыть пример GroupBox"
+                                            Click="GroupBoxButtonWPF_Click"/>
+                                    <Button x:Name="UniformGridButtonWPF" Content="Открыть пример UniformGrid"
+                                            Click="UniformGridButtonWPF_Click"/>
+                                    <Button x:Name="CanvasButtonWPF" Content="Открыть пример Canvas"
+                                            Click="CanvasButtonWPF_Click"/>
+                                </WrapPanel>
+                            </GroupBox>
+                        </TabItem.Content>
+                    </TabItem>
+
+                    <!--Вкладка с простыми НАСТРОЙКАМИ приложения-->
+                    <TabItem>
+                        <TabItem.Header>
+                            <TextBlock>Настройки</TextBlock>
+                        </TabItem.Header>
+                        <TabItem.Content >
+                            <local:UC_ProgProperty/>
+                        </TabItem.Content>
+                    </TabItem>
+
+                    <!--Вкладка ВЕРСИЯ приложения и информации-->
+                    <TabItem Header="О программе">
+                        <StackPanel>
+                            <TextBlock Text="Программа  показывающая основные возможности WPF"/>
+                            <TextBlock Text="Версия 0.0.0 от 08.03.2021    (Дом.00:00)"/>
+                            <TextBlock Text="Ученик Дмитрий Амелехин."/>
+                            <TextBlock Text="GeekBrains Lavel 3 WPF and MVVM. "/>
+                        </StackPanel>
+                    </TabItem>
+
+                </TabControl>
+            </Expander.Header>
+            <Expander.Content>
+                <TextBlock Text="Pbplf" FontSize="20"/>
+            </Expander.Content>        
+        
+        </Expander>
+       
+        
+        
+    </StackPanel>
+</Window>
