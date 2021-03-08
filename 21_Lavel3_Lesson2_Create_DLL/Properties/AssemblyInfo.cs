@@ -7,11 +7,11 @@ using System.Windows;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набор атрибутов. Измените значения этих атрибутов, чтобы изменить сведения,
 // связанные со сборкой.
-[assembly: AssemblyTitle("11_Lavel3_Lesson2_Create_DLL")]
+[assembly: AssemblyTitle("21_Lavel3_Lesson2_Create_DLL")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("11_Lavel3_Lesson2_Create_DLL")]
+[assembly: AssemblyProduct("21_Lavel3_Lesson2_Create_DLL")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

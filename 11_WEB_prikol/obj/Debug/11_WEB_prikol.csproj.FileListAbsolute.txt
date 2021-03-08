@@ -12,4 +12,3 @@ E:\C# Lessons\GeekBrains_Level3_WPF\11_WEB_prikol\obj\Debug\11_WEB_prikol.csproj
 E:\C# Lessons\GeekBrains_Level3_WPF\11_WEB_prikol\obj\Debug\11_WEB_prikol.csproj.CoreCompileInputs.cache
 E:\C# Lessons\GeekBrains_Level3_WPF\11_WEB_prikol\obj\Debug\11_WEB_prikol.exe
 E:\C# Lessons\GeekBrains_Level3_WPF\11_WEB_prikol\obj\Debug\11_WEB_prikol.pdb
-E:\C# Lessons\GeekBrains_Level3_WPF\11_WEB_prikol\obj\Debug\11_WEB_prikol.csprojAssemblyReference.cache
