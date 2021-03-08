@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -40,6 +41,12 @@ namespace _10_Level3_Lesson1_WPF_MainPanels_My
 
         }
 
+        private void CanvasButtonWPF_Click(object sender, RoutedEventArgs e)
+        {
+            Window windowStack = new WinCanvas();//создаю окно
+            windowStack.Show();
+        }
+
         private void WrapButtonWPF_Click(object sender, RoutedEventArgs e)
         {
             Window windowStack = new WinWrapPanel();//создаю окно
@@ -74,15 +81,35 @@ namespace _10_Level3_Lesson1_WPF_MainPanels_My
             windowStack.Show();
         }
 
-
-
-
         #endregion
 
-        private void CanvasButtonWPF_Click(object sender, RoutedEventArgs e)
-        {
-            Window windowStack = new WinCanvas();//создаю окно
-            windowStack.Show();
-        }
+
+
+        #region Обработчики Вкладки с кнопками
+
+            private void testbuttonWPF1_Click(object sender, RoutedEventArgs e)
+            {
+                Debug.WriteLine("Нажимается при наведении", "Обработчик");
+            }
+
+            private void testbuttonWPF3_Click(object sender, RoutedEventArgs e)
+            {
+                Debug.WriteLine("Кнопка по умолчанию.", "Обработчик");
+            }
+
+            private void testbuttonWPF4_Click(object sender, RoutedEventArgs e)
+            {
+                Debug.WriteLine("Кнопка Repeat нажата", "Обработчик");
+                //Window.Show("Кнопка Repeat", "Обработчик");
+            }
+
+
+            private void ToggleButton_Click(object sender, RoutedEventArgs e)
+            {
+                Debug.WriteLine("Кнопка ToggleButton нажата", "Обработчик");
+            }
+        #endregion
+
+
     }
 }

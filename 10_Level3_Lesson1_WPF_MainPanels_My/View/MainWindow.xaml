@@ -26,13 +26,15 @@
                     чтоб обработать открытие экспандера, то нам надо обработать событие Expanded 
                                                     (а при обработке закрытия - событие Collapsed)
         
-                    ExpandDirection="Down" -> Куда расширять эспандер
+                    ExpandDirection="Down" -> Куда расширять эспандер , значек тоже изменит положение
         -->
         <Expander 
-                  IsExpanded="False"  ExpandDirection="Down">
+                  IsExpanded="False"  ExpandDirection="Down" 
+            BorderBrush="Black" BorderThickness="2">
             
             <Expander.Header>
-                <TabControl>
+                <TabControl >
+                    
                     <!--Вкладка с ПАНЕЛЯМИ КОМПОНОВКИ,всплывающими оллкнами, оформленными как панели-->
                     <TabItem>
                         <TabItem.Header>
@@ -63,6 +65,43 @@
                         </TabItem.Content>
                     </TabItem>
 
+                    <!--Примеры вклвдки с кнопками-->
+                    <TabItem Header="Кнопочки">
+                        <StackPanel>
+                            <Button x:Name="testbuttonWPF1"    MinHeight="25" 
+                                    Content="Нажимается при наведении"
+                                    ClickMode="Hover" 
+                                    Click="testbuttonWPF1_Click"
+                                    />                            <!--ClickMode=Hover нажимает на кнопку при наведении мыши-->
+                            
+                            <Button x:Name="testbuttonWPF2"    MinHeight="25" 
+                                    Content="Закрыть окно"
+                                    ClickMode="Press" 
+                                    IsCancel="True"
+                                    />                            <!-- IsCancel=True Закрывает окно - не работает-->
+                            
+                            <Button x:Name="testbuttonWPF3"    MinHeight="25" 
+                                    Content="Кнопка по умолчанию"
+                                    ClickMode="Press" 
+                                    IsDefault="True" Click="testbuttonWPF3_Click"
+                                    />
+                            <!-- IsDefault=True Закрывает окно-->
+
+                            <RepeatButton x:Name="testbuttonWPF4"    MinHeight="25" 
+                                    Content="RepeatButton"
+                                    ClickMode="Press" 
+                                    Interval="1000" Delay="700"
+                                    Click="testbuttonWPF4_Click"
+                                    /> <!-- Нажимается через интервал времени, если держать мышкой-->
+
+                            <ToggleButton
+                                Content="ToggleButton"
+                                ToolTip="Кнопка, которую надо отжимать повторно"
+                                Click="ToggleButton_Click"/>
+                        </StackPanel>
+                    </TabItem>
+
+
                     <!--Вкладка с простыми НАСТРОЙКАМИ приложения-->
                     <TabItem>
                         <TabItem.Header>
@@ -82,6 +121,9 @@
                             <TextBlock Text="GeekBrains Lavel 3 WPF and MVVM. "/>
                         </StackPanel>
                     </TabItem>
+                    <!--Вкладка ВЕРСИЯ приложения и информации-->
+                    
+                    
 
                 </TabControl>
             </Expander.Header>

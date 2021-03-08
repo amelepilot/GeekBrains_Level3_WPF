@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00_Level2_Lesson5_StarterWP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_Level3_Lesson1_WPF_MainPanels_My", "10_Level3_Lesson1_WPF_MainPanels_My\10_Level3_Lesson1_WPF_MainPanels_My.csproj", "{5CC3A618-B3D5-4DC6-A111-DDC3C0B2724A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21_Lavel3_Lesson2_Create_DLL", "11_Lavel3_Lesson2_Create_DLL\21_Lavel3_Lesson2_Create_DLL.csproj", "{A9FA5EFD-220D-4F7E-9258-EE6FE45622A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22_Lavel3_Lesson2_Create_Control", "22_Lavel3_Lesson2_Create_Control\22_Lavel3_Lesson2_Create_Control.csproj", "{A3004A98-6562-4C79-9868-6026EB8C6CB9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{5CC3A618-B3D5-4DC6-A111-DDC3C0B2724A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CC3A618-B3D5-4DC6-A111-DDC3C0B2724A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CC3A618-B3D5-4DC6-A111-DDC3C0B2724A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9FA5EFD-220D-4F7E-9258-EE6FE45622A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9FA5EFD-220D-4F7E-9258-EE6FE45622A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9FA5EFD-220D-4F7E-9258-EE6FE45622A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9FA5EFD-220D-4F7E-9258-EE6FE45622A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3004A98-6562-4C79-9868-6026EB8C6CB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3004A98-6562-4C79-9868-6026EB8C6CB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3004A98-6562-4C79-9868-6026EB8C6CB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3004A98-6562-4C79-9868-6026EB8C6CB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
