@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace _11_Lavel3_Lesson2_Create_DLL
+namespace _21_Lavel3_Lesson2_Create_DLL
 {
     /// <summary>
     /// Логика взаимодействия для App.xaml

@@ -12,3 +12,4 @@ E:\C# Lessons\GeekBrains_Level3_WPF\22_Lavel3_Lesson2_Create_Control\obj\Debug\2
 E:\C# Lessons\GeekBrains_Level3_WPF\22_Lavel3_Lesson2_Create_Control\obj\Debug\22_Lavel3_Lesson2_Create_Control.csproj.CoreCompileInputs.cache
 E:\C# Lessons\GeekBrains_Level3_WPF\22_Lavel3_Lesson2_Create_Control\obj\Debug\22_Lavel3_Lesson2_Create_Control.exe
 E:\C# Lessons\GeekBrains_Level3_WPF\22_Lavel3_Lesson2_Create_Control\obj\Debug\22_Lavel3_Lesson2_Create_Control.pdb
+E:\C# Lessons\GeekBrains_Level3_WPF\22_Lavel3_Lesson2_Create_Control\obj\Debug\22_Lavel3_Lesson2_Create_Control.csprojAssemblyReference.cache
