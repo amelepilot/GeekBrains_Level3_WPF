@@ -79,6 +79,9 @@
     <Compile Include="View\WinWrapPanel.xaml.cs">
       <DependentUpon>WinWrapPanel.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\WinWebPrikol.xaml.cs">
+      <DependentUpon>WinWebPrikol.xaml</DependentUpon>
+    </Compile>
     <Page Include="View\MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -136,6 +139,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\WinWrapPanel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\WinWebPrikol.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

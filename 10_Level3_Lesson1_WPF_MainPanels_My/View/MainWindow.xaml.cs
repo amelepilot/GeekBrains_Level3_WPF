@@ -28,66 +28,78 @@ namespace _10_Level3_Lesson1_WPF_MainPanels_My
 
 
         #region Обработчики Первой вкладки с всплывающими кнопками
+       
+            /// <summary>
+            /// Открывает окно с планировкой StackPanel
+            /// </summary>
+            /// <param name="sender"></param>
+            /// <param name="e"></param>
+            private void StackButtonWPF_Click(object sender, RoutedEventArgs e)
+            {
+                Window windowStack = new WinStackPanel();//создаю окно
+                windowStack.Show();
+
+            }
+
+            private void CanvasButtonWPF_Click(object sender, RoutedEventArgs e)
+            {
+                Window windowStack = new WinCanvas();//создаю окно
+                windowStack.Show();
+            }
+
+            private void WrapButtonWPF_Click(object sender, RoutedEventArgs e)
+            {
+                Window windowStack = new WinWrapPanel();//создаю окно
+                windowStack.Show();
+            }
+
+            private void DockButtonWPF_Click(object sender, RoutedEventArgs e)
+            {
+                Window windowStack = new WinDoxkPanel();//создаю окно
+                windowStack.Show();
+            }
+
+            private void GridButtonWPF_Click(object sender, RoutedEventArgs e)
+            {
+                Window windowStack = new WinGrid();//создаю окно
+                windowStack.Show();
+            }
+
+            private void ExpanderButtonWPF_Click(object sender, RoutedEventArgs e)
+            {
+
+            }
+
+            private void GroupBoxButtonWPF_Click(object sender, RoutedEventArgs e)
+            {
+
+            }
+
+            private void UniformGridButtonWPF_Click(object sender, RoutedEventArgs e)
+            {
+                Window windowStack = new WinUniformGrid();//создаю окно
+                windowStack.Show();
+            }
+           
         /// <summary>
-        /// Открывает окно с планировкой StackPanel
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void StackButtonWPF_Click(object sender, RoutedEventArgs e)
-        {
-            Window windowStack = new WinStackPanel();//создаю окно
+            /// Браузер в приложении!!!
+            /// </summary>
+            /// <param name="sender"></param>
+            /// <param name="e"></param>
+            private void PrikolWEBWPF_Click(object sender, RoutedEventArgs e)
+            {
+            Window windowStack = new WinWebPrikol();//создаю окно
+            MessageBox.Show("Надо больше отдыхать...");
             windowStack.Show();
-
-
-        }
-
-        private void CanvasButtonWPF_Click(object sender, RoutedEventArgs e)
-        {
-            Window windowStack = new WinCanvas();//создаю окно
-            windowStack.Show();
-        }
-
-        private void WrapButtonWPF_Click(object sender, RoutedEventArgs e)
-        {
-            Window windowStack = new WinWrapPanel();//создаю окно
-            windowStack.Show();
-        }
-
-        private void DockButtonWPF_Click(object sender, RoutedEventArgs e)
-        {
-            Window windowStack = new WinDoxkPanel();//создаю окно
-            windowStack.Show();
-        }
-
-        private void GridButtonWPF_Click(object sender, RoutedEventArgs e)
-        {
-            Window windowStack = new WinGrid();//создаю окно
-            windowStack.Show();
-        }
-
-        private void ExpanderButtonWPF_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void GroupBoxButtonWPF_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void UniformGridButtonWPF_Click(object sender, RoutedEventArgs e)
-        {
-            Window windowStack = new WinUniformGrid();//создаю окно
-            windowStack.Show();
-        }
+            }
 
         #endregion
 
 
 
-        #region Обработчики Вкладки с кнопками
+        #region Обработчики Вкладки с прикольными кнопками
 
-            private void testbuttonWPF1_Click(object sender, RoutedEventArgs e)
+        private void testbuttonWPF1_Click(object sender, RoutedEventArgs e)
             {
                 Debug.WriteLine("Нажимается при наведении", "Обработчик");
             }
@@ -108,8 +120,9 @@ namespace _10_Level3_Lesson1_WPF_MainPanels_My
             {
                 Debug.WriteLine("Кнопка ToggleButton нажата", "Обработчик");
             }
+
         #endregion
 
-
+       
     }
 }

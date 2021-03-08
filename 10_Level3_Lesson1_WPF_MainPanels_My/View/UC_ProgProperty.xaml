@@ -67,11 +67,18 @@
                 </WrapPanel>
             </GroupBox>
         </StackPanel>
-        <GroupBox Header="Другие котролы">
+       
+         
             <StackPanel>
-                
-                
-            </StackPanel>
-        </GroupBox>
+                <GroupBox Header="Другие котролы">
+                    <StackPanel>
+                        <CheckBox Content="Это ЧекБокс"/>
+                        <CheckBox Content="Это ЧекБокс"/>
+                        <RadioButton Content="Это Радиобатон"/>
+                        <RadioButton Content="Это Радиобатон"/>
+                    </StackPanel>
+                </GroupBox> 
+            </StackPanel>   
+
     </WrapPanel>
 </UserControl>
