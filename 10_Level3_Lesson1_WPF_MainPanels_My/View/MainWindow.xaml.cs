@@ -99,7 +99,7 @@ namespace _10_Level3_Lesson1_WPF_MainPanels_My
 
         #region Обработчики Вкладки с прикольными кнопками
 
-        private void testbuttonWPF1_Click(object sender, RoutedEventArgs e)
+            private void testbuttonWPF1_Click(object sender, RoutedEventArgs e)
             {
                 Debug.WriteLine("Нажимается при наведении", "Обработчик");
             }

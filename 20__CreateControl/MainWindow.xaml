@@ -1,0 +1,18 @@
+﻿<Window x:Class="_20__CreateControl.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_20__CreateControl"
+        mc:Ignorable="d"
+        Title="Lesson2 exes0" Height="250" Width="400">
+    
+    <StackPanel>
+        <local:FileInputBox x:Name="fibUi" 
+                            MaxHeight="60" Margin="5"
+                            FileName="D:\" FileNameChanged="fibUi_FileNameChanged"></local:FileInputBox>
+        <Label Content="{Binding ElementName=fibUi,Path=FileName}"/>
+
+    </StackPanel>
+    
+</Window>

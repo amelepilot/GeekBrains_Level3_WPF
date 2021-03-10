@@ -1,0 +1,15 @@
+E:\C# Lessons\GeekBrains_Level3_WPF\MailerMVVM\bin\Debug\MailerMVVM.exe.config
+E:\C# Lessons\GeekBrains_Level3_WPF\MailerMVVM\bin\Debug\MailerMVVM.exe
+E:\C# Lessons\GeekBrains_Level3_WPF\MailerMVVM\bin\Debug\MailerMVVM.pdb
+E:\C# Lessons\GeekBrains_Level3_WPF\MailerMVVM\obj\Debug\MailerMVVM.csprojAssemblyReference.cache
+E:\C# Lessons\GeekBrains_Level3_WPF\MailerMVVM\obj\Debug\MainWindow.g.cs
+E:\C# Lessons\GeekBrains_Level3_WPF\MailerMVVM\obj\Debug\App.g.cs
+E:\C# Lessons\GeekBrains_Level3_WPF\MailerMVVM\obj\Debug\MailerMVVM_MarkupCompile.cache
+E:\C# Lessons\GeekBrains_Level3_WPF\MailerMVVM\obj\Debug\MailerMVVM_MarkupCompile.lref
+E:\C# Lessons\GeekBrains_Level3_WPF\MailerMVVM\obj\Debug\MainWindow.baml
+E:\C# Lessons\GeekBrains_Level3_WPF\MailerMVVM\obj\Debug\MailerMVVM.g.resources
+E:\C# Lessons\GeekBrains_Level3_WPF\MailerMVVM\obj\Debug\MailerMVVM.Properties.Resources.resources
+E:\C# Lessons\GeekBrains_Level3_WPF\MailerMVVM\obj\Debug\MailerMVVM.csproj.GenerateResource.cache
+E:\C# Lessons\GeekBrains_Level3_WPF\MailerMVVM\obj\Debug\MailerMVVM.csproj.CoreCompileInputs.cache
+E:\C# Lessons\GeekBrains_Level3_WPF\MailerMVVM\obj\Debug\MailerMVVM.exe
+E:\C# Lessons\GeekBrains_Level3_WPF\MailerMVVM\obj\Debug\MailerMVVM.pdb
