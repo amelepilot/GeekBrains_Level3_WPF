@@ -8,6 +8,7 @@
         mc:Ignorable="d"
         Title="Different Panels Demonstration" SizeToContent="WidthAndHeight" MaxWidth="800">
     
+    <!--Моя тренировка с Панелями-->
     <!--Доработать до красоты открывающиеся окна + применить стили для приложения-->
     
     <!--Еустовый стиль Button-->

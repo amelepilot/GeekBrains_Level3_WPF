@@ -1,4 +1,3 @@
-E:\C# Lessons\GeekBrains_Level3_WPF\20__CreateControl\obj\Debug\20__CreateControl.csprojAssemblyReference.cache
 E:\C# Lessons\GeekBrains_Level3_WPF\20__CreateControl\obj\Debug\MainWindow.g.cs
 E:\C# Lessons\GeekBrains_Level3_WPF\20__CreateControl\obj\Debug\App.g.cs
 E:\C# Lessons\GeekBrains_Level3_WPF\20__CreateControl\obj\Debug\20__CreateControl_MarkupCompile.cache
