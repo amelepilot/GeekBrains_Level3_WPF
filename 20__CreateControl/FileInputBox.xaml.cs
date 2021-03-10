@@ -35,12 +35,15 @@ namespace _20__CreateControl
 
         #region DependencyProperty
 
-        public static readonly DependencyProperty FileNameProperty
-            = DependencyProperty.Register("FileName", typeof(string), typeof(FileInputBox));
+            public static readonly DependencyProperty FileNameProperty
+                = DependencyProperty.Register("FileName", typeof(string), typeof(FileInputBox));
 
-
-
-
+            //сделали свойство связанное с текстбоксом
+            public string FileName
+            {
+                get => (string)GetValue(FileNameProperty);
+                set { SetValue(FileNameProperty, value); }
+            }
 
         #endregion
 
@@ -49,25 +52,8 @@ namespace _20__CreateControl
 
         #region Обработчики моего юсерконтрола
 
-        //сделали свойство связанное с текстбоксом
-        public string FileName
-        {
-            get => (string)GetValue(FileNameProperty);
-            set { SetValue(FileNameProperty, value); }
-        } 
-
-            //Обработчик кнопки запишет в наше свойство имя выбранного файла с формы
-            private void theButton_Click(object sender, RoutedEventArgs e)
-            {
-                OpenFileDialog ofd = new OpenFileDialog();
-                if (ofd.ShowDialog()==true)
-                {
-                    this.FileName = ofd.FileName;
-                }
-            }
-
-        //собственное событие (обощенное)
-        // при набирании текста, будет срабатывать событие FileNameChanged
+            //собственное событие (обощенное)
+            // при набирании текста, будет срабатывать событие FileNameChanged
         
             public event EventHandler<EventArgs> FileNameChanged;       
 
@@ -79,9 +65,18 @@ namespace _20__CreateControl
                     FileNameChanged(this, EventArgs.Empty);
             }
 
-           
 
-            #endregion
+            //Обработчик кнопки запишет в наше свойство имя выбранного файла с формы
+            private void theButton_Click(object sender, RoutedEventArgs e)
+            {
+                OpenFileDialog ofd = new OpenFileDialog();
+                if (ofd.ShowDialog() == true)
+                {
+                    this.FileName = ofd.FileName;
+                }
+            }
+
+        #endregion
 
 
 
