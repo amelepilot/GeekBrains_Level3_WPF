@@ -15,3 +15,4 @@ E:\C# Lessons\GeekBrains_Level3_WPF\20__CreateControl\obj\Debug\20__CreateContro
 E:\C# Lessons\GeekBrains_Level3_WPF\20__CreateControl\obj\Debug\20__CreateControl.exe
 E:\C# Lessons\GeekBrains_Level3_WPF\20__CreateControl\obj\Debug\20__CreateControl.pdb
 E:\C# Lessons\GeekBrains_Level3_WPF\20__CreateControl\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\C# Lessons\GeekBrains_Level3_WPF\20__CreateControl\obj\Debug\20__CreateControl.csprojAssemblyReference.cache

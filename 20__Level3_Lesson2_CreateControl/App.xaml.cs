@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace _20__Level3_Lesson2_CreateControl
+namespace _20_Level3_Lesson2_CreateControl
 {
     /// <summary>
     /// Логика взаимодействия для App.xaml

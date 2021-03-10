@@ -14,7 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace _20__Level3_Lesson2_CreateControl
+namespace _20_Level3_Lesson2_CreateControl
 {
     /// <summary>
     /// Логика взаимодействия для FileInputBox.xaml
@@ -31,18 +31,17 @@ namespace _20__Level3_Lesson2_CreateControl
 
 
 
-
         #region DependencyProperty
 
-        public static readonly DependencyProperty FileNameProperty
-            = DependencyProperty.Register("FileName", typeof(string), typeof(FileInputBox));
+            public static readonly DependencyProperty FileNameProperty
+                = DependencyProperty.Register("FileName", typeof(string), typeof(FileInputBox));
 
-        //сделали свойство связанное с текстбоксом
-        public string FileName
-        {
-            get => (string)GetValue(FileNameProperty);
-            set { SetValue(FileNameProperty, value); }
-        }
+            //сделали свойство связанное с текстбоксом
+            public string FileName
+            {
+                get => (string)GetValue(FileNameProperty);
+                set { SetValue(FileNameProperty, value); }
+            }
 
         #endregion
 
@@ -51,29 +50,28 @@ namespace _20__Level3_Lesson2_CreateControl
 
         #region Обработчики моего юсерконтрола
 
-        //собственное событие (обощенное)
-        // при набирании текста, будет срабатывать событие FileNameChanged
+            //собственное событие (обощенное)
+            // при набирании текста, будет срабатывать событие FileNameChanged
 
-        public event EventHandler<EventArgs> FileNameChanged;
+            public event EventHandler<EventArgs> FileNameChanged;
 
-        private void OnTextChanged(object sender, TextChangedEventArgs e)
-        {
-            //throw new NotImplementedException();
-            e.Handled = true;//хз как это работает
-            if (FileNameChanged != null)
-                FileNameChanged(this, EventArgs.Empty);
-        }
-
-
-        //Обработчик кнопки запишет в наше свойство имя выбранного файла с формы
-        private void theButton_Click(object sender, RoutedEventArgs e)
-        {
-            OpenFileDialog ofd = new OpenFileDialog();
-            if (ofd.ShowDialog() == true)
+            private void OnTextChanged(object sender, TextChangedEventArgs e)//не понипю функцию пока..
             {
-                this.FileName = ofd.FileName;
+                //throw new NotImplementedException();
+                e.Handled = true;//хз как это работает
+                if (FileNameChanged != null)
+                    FileNameChanged(this, EventArgs.Empty);
             }
-        }
+
+            //Обработчик кнопки запишет в наше свойство имя выбранного файла с формы
+            private void theButton_Click(object sender, RoutedEventArgs e)
+            {
+                OpenFileDialog ofd = new OpenFileDialog();
+                if (ofd.ShowDialog() == true)
+                {
+                    this.FileName = ofd.FileName;
+                }
+            }
 
         #endregion
 
@@ -81,13 +79,14 @@ namespace _20__Level3_Lesson2_CreateControl
 
 
         #region Непонятная хрень для защмты контента
-        /// <summary>
-        /// ЭТО НАДО ДЛЯ ЗАЩИТЫ КОНТЕНТА
-        /// При замене контента типа что-то выскакивать должно
-        /// </summary>
-        /// <param name="oldContent"></param>
-        /// <param name="newContent"></param>
-        protected override void OnContentChanged(object oldContent, object newContent)
+        
+            /// <summary>
+            /// ЭТО НАДО ДЛЯ ЗАЩИТЫ КОНТЕНТА
+            /// При замене контента типа что-то выскакивать должно
+            /// </summary>
+            /// <param name="oldContent"></param>
+            /// <param name="newContent"></param>
+            protected override void OnContentChanged(object oldContent, object newContent)
         {
             //base.OnContentChanged(oldContent, newContent);//по умолч
             if (oldContent != null)
@@ -95,6 +94,7 @@ namespace _20__Level3_Lesson2_CreateControl
                 throw new InvalidOperationException("Вы не можете измянять контент!!!!");
             }
         }
+
         #endregion
 
     }

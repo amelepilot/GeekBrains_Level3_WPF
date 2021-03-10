@@ -14,7 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace _20__Level3_Lesson2_CreateControl
+namespace _20_Level3_Lesson2_CreateControl
 {
     /// <summary>
     /// Логика взаимодействия для MainWindow.xaml
