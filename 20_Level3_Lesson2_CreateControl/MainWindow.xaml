@@ -11,9 +11,7 @@
         <local:FileInputBox x:Name="fibUi" 
                             MaxHeight="60" Margin="5"
                             FileName="D:\" FileNameChanged="fibUi_FileNameChanged">
-            
         </local:FileInputBox>
-        
         <Label Content="{Binding ElementName=fibUi,Path=FileName}"/>
 
         </StackPanel>

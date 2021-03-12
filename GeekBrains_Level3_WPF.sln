@@ -11,7 +11,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20__CreateControl", "20__Cr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_Lavel3_Lesson1_Web_prikol", "11_Lavel3_Lesson1_Web_prikol\11_Lavel3_Lesson1_Web_prikol.csproj", "{85E0B373-188A-41D5-921F-E4FCF6BA68D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20_Level3_Lesson2_CreateControl", "20__Level3_Lesson2_CreateControl\20_Level3_Lesson2_CreateControl.csproj", "{5250BF3E-013A-4AEF-9E85-66155BF2A032}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20_Level3_Lesson2_CreateControl", "20_Level3_Lesson2_CreateControl\20_Level3_Lesson2_CreateControl.csproj", "{5250BF3E-013A-4AEF-9E85-66155BF2A032}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Our", "Our\Our.csproj", "{2BCA73AF-9922-498C-882B-654BD0FF06C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{5250BF3E-013A-4AEF-9E85-66155BF2A032}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5250BF3E-013A-4AEF-9E85-66155BF2A032}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5250BF3E-013A-4AEF-9E85-66155BF2A032}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BCA73AF-9922-498C-882B-654BD0FF06C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BCA73AF-9922-498C-882B-654BD0FF06C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BCA73AF-9922-498C-882B-654BD0FF06C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BCA73AF-9922-498C-882B-654BD0FF06C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
