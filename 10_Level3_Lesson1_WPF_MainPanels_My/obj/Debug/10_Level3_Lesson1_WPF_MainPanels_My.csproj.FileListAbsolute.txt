@@ -10,8 +10,6 @@ E:\C# Lessons\GeekBrains_Level3_WPF\10_Level3_Lesson1_WPF_MainPanels_My\obj\Debu
 E:\C# Lessons\GeekBrains_Level3_WPF\10_Level3_Lesson1_WPF_MainPanels_My\obj\Debug\10_Level3_Lesson1_WPF_MainPanels_My.csproj.CoreCompileInputs.cache
 E:\C# Lessons\GeekBrains_Level3_WPF\10_Level3_Lesson1_WPF_MainPanels_My\obj\Debug\10_Level3_Lesson1_WPF_MainPanels_My.exe
 E:\C# Lessons\GeekBrains_Level3_WPF\10_Level3_Lesson1_WPF_MainPanels_My\obj\Debug\10_Level3_Lesson1_WPF_MainPanels_My.pdb
-E:\C# Lessons\GeekBrains_Level3_WPF\10_Level3_Lesson1_WPF_MainPanels_My\obj\Debug\Win.g.cs
-E:\C# Lessons\GeekBrains_Level3_WPF\10_Level3_Lesson1_WPF_MainPanels_My\obj\Debug\Win.baml
 E:\C# Lessons\GeekBrains_Level3_WPF\10_Level3_Lesson1_WPF_MainPanels_My\obj\Debug\GeneratedInternalTypeHelper.g.cs
 E:\C# Lessons\GeekBrains_Level3_WPF\10_Level3_Lesson1_WPF_MainPanels_My\obj\Debug\StylesAndThemes\dict_theme_dark.baml
 E:\C# Lessons\GeekBrains_Level3_WPF\10_Level3_Lesson1_WPF_MainPanels_My\obj\Debug\StylesAndThemes\dict_theme_forest_green.baml

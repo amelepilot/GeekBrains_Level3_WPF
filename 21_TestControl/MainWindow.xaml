@@ -1,11 +1,11 @@
-﻿<Window x:Class="_10_Level3_Lesson1_WPF_MainPanels_My.Win"
+﻿<Window x:Class="_21_TestControl.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:_10_Level3_Lesson1_WPF_MainPanels_My"
+        xmlns:local="clr-namespace:_21_TestControl"
         mc:Ignorable="d"
-        Title="Win" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800">
     <Grid>
         
     </Grid>

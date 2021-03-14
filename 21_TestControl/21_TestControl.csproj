@@ -4,17 +4,19 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0986B0E2-0333-4B14-9687-A5DD9C69D132}</ProjectGuid>
-    <OutputType>library</OutputType>
-    <RootNamespace>_21_OurWpfControlsLibrary</RootNamespace>
-    <AssemblyName>21_OurWpfControlsLibrary</AssemblyName>
+    <ProjectGuid>{B16A8851-E661-4829-A4E1-9218BCB7EC7C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>_21_TestControl</RootNamespace>
+    <AssemblyName>21_TestControl</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,6 +26,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -48,6 +51,24 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -61,9 +82,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="TabSwither.xaml.cs">
-      <DependentUpon>TabSwither.xaml</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -74,32 +92,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Page Include="TabSwither.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="ImagesTest\strelka_ %281%29.png" />
-    <Resource Include="ImagesTest\strelka_ %2810%29.png" />
-    <Resource Include="ImagesTest\strelka_ %2811%29.png" />
-    <Resource Include="ImagesTest\strelka_ %2812%29.png" />
-    <Resource Include="ImagesTest\strelka_ %2813%29.png" />
-    <Resource Include="ImagesTest\strelka_ %2814%29.png" />
-    <Resource Include="ImagesTest\strelka_ %2815%29.png" />
-    <Resource Include="ImagesTest\strelka_ %2816%29.png" />
-    <Resource Include="ImagesTest\strelka_ %2817%29.png" />
-    <Resource Include="ImagesTest\strelka_ %2818%29.png" />
-    <Resource Include="ImagesTest\strelka_ %2819%29.png" />
-    <Resource Include="ImagesTest\strelka_ %282%29.png" />
-    <Resource Include="ImagesTest\strelka_ %2820%29.png" />
-    <Resource Include="ImagesTest\strelka_ %283%29.png" />
-    <Resource Include="ImagesTest\strelka_ %284%29.png" />
-    <Resource Include="ImagesTest\strelka_ %285%29.png" />
-    <Resource Include="ImagesTest\strelka_ %286%29.png" />
-    <Resource Include="ImagesTest\strelka_ %287%29.png" />
-    <Resource Include="ImagesTest\strelka_ %288%29.png" />
-    <Resource Include="ImagesTest\strelka_ %289%29.png" />
+    <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
