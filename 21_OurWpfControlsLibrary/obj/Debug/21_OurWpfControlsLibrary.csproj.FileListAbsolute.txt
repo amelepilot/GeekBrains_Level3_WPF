@@ -1,0 +1,12 @@
+E:\C# Lessons\GeekBrains_Level3_WPF\21_OurWpfControlsLibrary\bin\Debug\21_OurWpfControlsLibrary.dll
+E:\C# Lessons\GeekBrains_Level3_WPF\21_OurWpfControlsLibrary\bin\Debug\21_OurWpfControlsLibrary.pdb
+E:\C# Lessons\GeekBrains_Level3_WPF\21_OurWpfControlsLibrary\obj\Debug\TabSwither.g.cs
+E:\C# Lessons\GeekBrains_Level3_WPF\21_OurWpfControlsLibrary\obj\Debug\21_OurWpfControlsLibrary_MarkupCompile.cache
+E:\C# Lessons\GeekBrains_Level3_WPF\21_OurWpfControlsLibrary\obj\Debug\21_OurWpfControlsLibrary_MarkupCompile.lref
+E:\C# Lessons\GeekBrains_Level3_WPF\21_OurWpfControlsLibrary\obj\Debug\TabSwither.baml
+E:\C# Lessons\GeekBrains_Level3_WPF\21_OurWpfControlsLibrary\obj\Debug\21_OurWpfControlsLibrary.g.resources
+E:\C# Lessons\GeekBrains_Level3_WPF\21_OurWpfControlsLibrary\obj\Debug\_21_OurWpfControlsLibrary.Properties.Resources.resources
+E:\C# Lessons\GeekBrains_Level3_WPF\21_OurWpfControlsLibrary\obj\Debug\21_OurWpfControlsLibrary.csproj.GenerateResource.cache
+E:\C# Lessons\GeekBrains_Level3_WPF\21_OurWpfControlsLibrary\obj\Debug\21_OurWpfControlsLibrary.csproj.CoreCompileInputs.cache
+E:\C# Lessons\GeekBrains_Level3_WPF\21_OurWpfControlsLibrary\obj\Debug\21_OurWpfControlsLibrary.dll
+E:\C# Lessons\GeekBrains_Level3_WPF\21_OurWpfControlsLibrary\obj\Debug\21_OurWpfControlsLibrary.pdb

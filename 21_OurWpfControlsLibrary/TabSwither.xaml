@@ -4,8 +4,20 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:_21_OurWpfControlsLibrary"
+             x:Name="rootUC"
            >
-    <Grid>
+    <DockPanel>
+        <Button x:Name="butnPrev">
+            <Button.Content>
+                <WrapPanel>
+                    <Image Source="ImagesTest/strelka_ (4).png" 
+                           Width="30" Margin="1"/>
+                    <TextBlock  HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1"
+                                Text="{Binding PrevTextDP,ElementName=rootUC}"
+                                />
+                </WrapPanel>
+            </Button.Content>
             
-    </Grid>
+        </Button>
+    </DockPanel>
 </UserControl>

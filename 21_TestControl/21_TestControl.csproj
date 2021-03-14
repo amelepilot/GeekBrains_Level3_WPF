@@ -94,5 +94,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\21_OurWpfControlsLibrary\21_OurWpfControlsLibrary.csproj">
+      <Project>{0986b0e2-0333-4b14-9687-a5dd9c69d132}</Project>
+      <Name>21_OurWpfControlsLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
