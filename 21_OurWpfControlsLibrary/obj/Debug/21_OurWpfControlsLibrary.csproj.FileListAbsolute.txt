@@ -10,3 +10,4 @@ E:\C# Lessons\GeekBrains_Level3_WPF\21_OurWpfControlsLibrary\obj\Debug\21_OurWpf
 E:\C# Lessons\GeekBrains_Level3_WPF\21_OurWpfControlsLibrary\obj\Debug\21_OurWpfControlsLibrary.csproj.CoreCompileInputs.cache
 E:\C# Lessons\GeekBrains_Level3_WPF\21_OurWpfControlsLibrary\obj\Debug\21_OurWpfControlsLibrary.dll
 E:\C# Lessons\GeekBrains_Level3_WPF\21_OurWpfControlsLibrary\obj\Debug\21_OurWpfControlsLibrary.pdb
+E:\C# Lessons\GeekBrains_Level3_WPF\21_OurWpfControlsLibrary\obj\Debug\21_OurWpfControlsLibrary.csprojAssemblyReference.cache

@@ -6,9 +6,17 @@
         xmlns:local="clr-namespace:_21_TestControl"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800"
-        xmlns:bibDLL="clr_namespase:_21_OurWpfControlsLibrary;assembly=_21_OurWpfControlsLibrary" >
+        
+        xmlns:bibDLL="clr-namespace:_21_OurWpfControlsLibrary;assembly=21_OurWpfControlsLibrary">
     
-    <Grid>
-        <bibDLL:TabSwitcher />
-    </Grid>
+    <StackPanel>
+        <bibDLL:TabSwither PrevTextDP="Пробная кнопка"  Height="30" Margin="1"/>
+       
+        
+        <bibDLL:TabSwither PrevTextDP="Назад" NextTextDP="Вперед"
+                           Height="30" 
+                           butnPrevClick="TabSwither_butnPrevClick"
+                           butnNextClick="TabSwither_butnNextClick"/>
+
+    </StackPanel>
 </Window>

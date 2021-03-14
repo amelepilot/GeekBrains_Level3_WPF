@@ -24,5 +24,15 @@ namespace _21_TestControl
         {
             InitializeComponent();
         }
+
+        private void TabSwither_butnPrevClick(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Сработал обработчик событий кнопки НАЗАД");
+        }
+
+        private void TabSwither_butnNextClick(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Сработал обработчик событий кнопки ВПЕРЕД");
+        }
     }
 }

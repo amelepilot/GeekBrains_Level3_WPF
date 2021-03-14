@@ -6,8 +6,8 @@
              xmlns:local="clr-namespace:_21_OurWpfControlsLibrary"
              x:Name="rootUC"
            >
-    <DockPanel>
-        <Button x:Name="butnPrev">
+    <WrapPanel>
+        <Button x:Name="butnPrev" Margin="1"  Click="butnPrev_Click">
             <Button.Content>
                 <WrapPanel>
                     <Image Source="ImagesTest/strelka_ (4).png" 
@@ -19,5 +19,19 @@
             </Button.Content>
             
         </Button>
-    </DockPanel>
+
+
+        <Button x:Name="butnNext" Margin="1" Click="butnNext_Click">
+            <Button.Content>
+                <WrapPanel>
+                    <Image Source="ImagesTest/strelka_ (6).png" 
+                           Width="30" Margin="1"/>
+                    <TextBlock  HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1"
+                                Text="{Binding NextTextDP,ElementName=rootUC}"
+                                />
+                </WrapPanel>
+            </Button.Content>
+
+        </Button>
+    </WrapPanel>
 </UserControl>
