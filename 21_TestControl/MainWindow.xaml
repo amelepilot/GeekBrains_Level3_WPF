@@ -10,7 +10,7 @@
         xmlns:bibDLL="clr-namespace:_21_OurWpfControlsLibrary;assembly=21_OurWpfControlsLibrary">
     
     <StackPanel>
-        <bibDLL:TabSwither PrevTextDP="Пробная кнопка"  Height="30" Margin="1"/>
+        <bibDLL:TabSwither   Height="30" Margin="1"/>
        
         
         <bibDLL:TabSwither PrevTextDP="Назад" NextTextDP="Вперед"
